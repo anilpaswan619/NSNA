@@ -79,4 +79,8 @@
 }
 .right-card {
     display:flex;
+    font-size: 12px;
+}
+.text-muted {
+    color:#f01f28 !important;
 }
