@@ -1,5 +1,63 @@
-
-  .ex3 .parent {
+.header {
     display: grid;
-    grid-template-columns: minmax(150px, 25%) 1fr;
+    grid-template-columns: minmax(150px, 15%) 1fr;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, serif;
+
   }
+  
+  .sidebar {
+    height: 100vh;
+    background: white;
+    /* font-size: 2rem; */
+    text-align: center;
+  }
+  
+  .content {
+    padding: 2rem;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: rgb(245, 236, 240);
+
+  }
+#carouselExampleDark {
+    margin-top: -32px;
+    margin-right: -32px;
+    margin-left: -32px;
+
+}
+  .cls-1 {
+    fill: #fedf38;
+    fill-rule: evenodd;
+  }
+  .cls-2 {
+    fill: #f01f28;
+    fill-rule: evenodd;
+  }
+  .carousel-indicators{
+    visibility: hidden;
+  }
+  .carousel-arrow {
+      margin-left: 10px !important;
+      border: 1px solid green;
+      visibility: visible;
+  }
+ 
+.nav-link a{
+    text-decoration: none;
+}
+.nav-link ul a li{
+    list-style-type: none;
+    color: gray;
+    padding: 8px;
+}
+.admin-link a{
+    background-color: #f01f28;
+    text-decoration: none;
+    color: white;
+    padding:10px;
+}

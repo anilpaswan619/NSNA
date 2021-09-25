@@ -5,19 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NSNA Home</title>
-    <link rel=""
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 <body>
     <!-- Header starts here -->
-    <div class="parent">
-        <div class="section yellow" contenteditable>
-        Min: 150px / Max: 25%
+    <div class="header">
+      <div class="sidebar">
+          <img src="images/Logo.png" class="img-fluid" alt="logo"/> <br/>
+          <div class="nav-link">
+            <ul>
+               <a href="#"><li>Home</li></a> 
+               <a href="#"><li>Competition</li></a>
+               <a href="#"><li>Representatives</li></a> 
+               <a href="#"><li>Umpires</li></a>
+               <a href="#"><li>Coaching</li></a> 
+               <a href="#"><li>About Us</li></a> 
+               <a href="#"><li>News</li></a> 
+               <a href="#"><li>Shop</li></a> 
+               <a href="#"><li>Contact Us</li></a>  
+               <a href="#"><li>Gallery</li></a> 
+            </ul>
         </div>
-        <div class="section purple" contenteditable>
-          This element takes the second grid position (1fr), meaning
-          it takes up the rest of the remaining space.
+        <div class="admin-link">
+            <a href="#"><img src="images/Admin Icon.png"> Admin Login</a>
         </div>
       </div>
       
+
+      <div class="content">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="13.625" viewBox="0 0 34 13.625" class="carousel-arrow">
+                    <path id="red_arrow" data-name="red arrow" class="cls-2" d="M673.038,741.924a0.658,0.658,0,0,1,.234.546,0.811,0.811,0,0,1-.234.546l-3.75,3.693h28.969a0.716,0.716,0,0,1,.531.224,0.756,0.756,0,0,1,.219.546v1.028a0.754,0.754,0,0,1-.219.546,0.713,0.713,0,0,1-.531.225H669.288l3.75,3.692a0.811,0.811,0,0,1,.234.546,0.658,0.658,0,0,1-.234.546l-0.688.707a0.741,0.741,0,0,1-1.062,0l-6.063-6.23a0.793,0.793,0,0,1,0-1.092l6.063-6.229a0.739,0.739,0,0,1,1.062,0Z" transform="translate(-665 -741)"/>
+                </svg>   
+              </button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="14" viewBox="0 0 34 14" class="carousel-arrow">
+                    <path id="yellow_arrow" data-name="yellow arrow" class="cls-1" d="M425.4,570.243a0.637,0.637,0,0,0-.235.532,0.785,0.785,0,0,0,.235.531l3.75,3.594H400.181a0.746,0.746,0,0,0-.75.749v1a0.748,0.748,0,0,0,.75.75H429.15l-3.75,3.593a0.785,0.785,0,0,0-.235.531,0.637,0.637,0,0,0,.235.532l0.687,0.687a0.754,0.754,0,0,0,1.063,0l6.062-6.062a0.754,0.754,0,0,0,0-1.063l-6.062-6.062a0.754,0.754,0,0,0-1.063,0Z" transform="translate(-399.438 -569.344)"/>
+                </svg>
+               </button>
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="14" viewBox="0 0 34 14" class="carousel-arrow">
+                   <path id="red_arrow" data-name="red arrow" class="cls-2" d="M673.038,741.924a0.658,0.658,0,0,1,.234.546,0.811,0.811,0,0,1-.234.546l-3.75,3.693h28.969a0.716,0.716,0,0,1,.531.224,0.756,0.756,0,0,1,.219.546v1.028a0.754,0.754,0,0,1-.219.546,0.713,0.713,0,0,1-.531.225H669.288l3.75,3.692a0.811,0.811,0,0,1,.234.546,0.658,0.658,0,0,1-.234.546l-0.688.707a0.741,0.741,0,0,1-1.062,0l-6.063-6.23a0.793,0.793,0,0,1,0-1.092l6.063-6.229a0.739,0.739,0,0,1,1.062,0Z" transform="translate(-665 -741)"/>
+                </svg>
+              </button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+
+    </div>
+</div>
+ 
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
