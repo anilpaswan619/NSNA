@@ -67,9 +67,16 @@
 }
 .imp {
     background-color: gold;
-     padding:8px;
+    color: black;
+     padding-top:4px;
+     padding-left:15px;
+     padding-right:15px;
+     padding-bottom:4px;
      border-radius: 15px;
 }
 .slide-content {
     color: white !important;
+}
+.right-card {
+    display:flex;
 }
